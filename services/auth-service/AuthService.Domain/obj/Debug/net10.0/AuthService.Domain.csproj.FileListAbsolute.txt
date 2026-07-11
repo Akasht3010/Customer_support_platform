@@ -1,0 +1,12 @@
+/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Domain/bin/Debug/net10.0/AuthService.Domain.deps.json
+/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Domain/bin/Debug/net10.0/AuthService.Domain.dll
+/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Domain/bin/Debug/net10.0/AuthService.Domain.pdb
+/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Domain/obj/Debug/net10.0/AuthService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Domain/obj/Debug/net10.0/AuthService.Domain.AssemblyInfoInputs.cache
+/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Domain/obj/Debug/net10.0/AuthService.Domain.AssemblyInfo.cs
+/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Domain/obj/Debug/net10.0/AuthService.Domain.csproj.CoreCompileInputs.cache
+/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Domain/obj/Debug/net10.0/AuthService.Domain.sourcelink.json
+/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Domain/obj/Debug/net10.0/AuthService.Domain.dll
+/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Domain/obj/Debug/net10.0/refint/AuthService.Domain.dll
+/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Domain/obj/Debug/net10.0/AuthService.Domain.pdb
+/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Domain/obj/Debug/net10.0/ref/AuthService.Domain.dll

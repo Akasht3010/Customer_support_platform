@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QUCS+cTsb5w=",
+  "dgSpecHash": "YlHISp5OOmA=",
   "success": true,
   "projectFilePath": "/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/tests/AuthService.IntegrationTests/AuthService.IntegrationTests.csproj",
   "expectedPackageFiles": [
