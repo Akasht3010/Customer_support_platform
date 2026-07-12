@@ -48,7 +48,9 @@
 /Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Infrastructure/bin/Debug/net10.0/AuthService.Infrastructure.runtimeconfig.json
 /Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Infrastructure/bin/Debug/net10.0/AuthService.Infrastructure.dll
 /Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Infrastructure/bin/Debug/net10.0/AuthService.Infrastructure.pdb
+/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Infrastructure/bin/Debug/net10.0/AuthService.Application.dll
 /Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Infrastructure/bin/Debug/net10.0/AuthService.Domain.dll
+/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Infrastructure/bin/Debug/net10.0/AuthService.Application.pdb
 /Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Infrastructure/bin/Debug/net10.0/AuthService.Domain.pdb
 /Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Infrastructure/obj/Debug/net10.0/AuthService.Infrastructure.csproj.AssemblyReference.cache
 /Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Infrastructure/obj/Debug/net10.0/AuthService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig

@@ -30,7 +30,7 @@ public class User : AuditableEntity
     {
     }
 
-    public User(
+    private User(
         string firstName,
         string lastName,
         string email,
@@ -40,5 +40,18 @@ public class User : AuditableEntity
         LastName = lastName;
         Email = email;
         PasswordHash = passwordHash;
+    }
+
+    public static User Create(
+        string firstName,
+        string lastName,
+        string email,
+        string passwordHash)
+    {
+        return new User(
+            firstName,
+            lastName,
+            email,
+            passwordHash);
     }
 }

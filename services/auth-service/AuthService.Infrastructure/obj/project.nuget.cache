@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "fzCfNyOWiP4=",
+  "dgSpecHash": "KO0W9xawquc=",
   "success": true,
   "projectFilePath": "/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Infrastructure/AuthService.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "/Users/akashthakkar/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
+    "/Users/akashthakkar/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
+    "/Users/akashthakkar/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.0.0/fluentvalidation.dependencyinjectionextensions.12.0.0.nupkg.sha512",
     "/Users/akashthakkar/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/akashthakkar/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/Users/akashthakkar/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/akashthakkar/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "/Users/akashthakkar/.nuget/packages/microsoft.build/17.7.2/microsoft.build.17.7.2.nupkg.sha512",
     "/Users/akashthakkar/.nuget/packages/microsoft.build.framework/17.14.28/microsoft.build.framework.17.14.28.nupkg.sha512",
     "/Users/akashthakkar/.nuget/packages/microsoft.build.tasks.core/17.14.28/microsoft.build.tasks.core.17.14.28.nupkg.sha512",
@@ -54,6 +60,18 @@
     "/Users/akashthakkar/.nuget/packages/system.windows.extensions/9.0.0/system.windows.extensions.9.0.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "message": "Detected package version outside of dependency constraint: MediatR.Extensions.Microsoft.DependencyInjection 11.1.0 requires MediatR (>= 11.0.0 && < 12.0.0) but version MediatR 12.4.1 was resolved.",
+      "projectPath": "/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Infrastructure/AuthService.Infrastructure.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/akashthakkar/Documents/Projects/Customer_Support_Platform/services/auth-service/AuthService.Infrastructure/AuthService.Infrastructure.csproj",
+      "libraryId": "MediatR",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
     {
       "code": "NU1903",
       "level": "Warning",
