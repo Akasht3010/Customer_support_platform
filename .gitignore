@@ -1,0 +1,26 @@
+# Build folders
+bin/
+obj/
+
+# User files
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+
+# Rider
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
