@@ -1,6 +1,7 @@
 using AuthService.Application.Common.Interfaces;
 using AuthService.Domain.Entities;
 using MediatR;
+using AuthService.Application.Common.Exceptions;
 
 namespace AuthService.Application.Features.Authentication.Register;
 
@@ -33,8 +34,7 @@ public class RegisterCommandHandler
 
         if (existingUser is not null)
         {
-            throw new InvalidOperationException(
-                "A user with this email already exists.");
+            throw new ConflictException("Email already exists.");
         }
 
         var passwordHash =

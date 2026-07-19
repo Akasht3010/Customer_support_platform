@@ -15,6 +15,9 @@ public class RefreshTokenConfiguration : IEntityTypeConfiguration<RefreshToken>
         builder.Property(x => x.Token)
             .IsRequired();
 
+        builder.HasIndex(x => x.Token)
+            .IsUnique();
+
         builder.Property(x => x.DeviceName)
             .HasMaxLength(200);
 
@@ -23,6 +26,7 @@ public class RefreshTokenConfiguration : IEntityTypeConfiguration<RefreshToken>
 
         builder.HasOne(x => x.User)
             .WithMany(x => x.RefreshTokens)
-            .HasForeignKey(x => x.UserId);
+            .HasForeignKey(x => x.UserId)
+            .OnDelete(DeleteBehavior.Cascade);
     }
 }

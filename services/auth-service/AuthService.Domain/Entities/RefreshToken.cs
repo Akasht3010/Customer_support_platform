@@ -18,6 +18,8 @@ public class RefreshToken : BaseEntity
 
     public User User { get; private set; } = null!;
 
+    public bool IsActive => RevokedAt is null && ExpiresAt > DateTime.UtcNow;
+
     private RefreshToken()
     {
     }
@@ -34,5 +36,10 @@ public class RefreshToken : BaseEntity
         ExpiresAt = expiresAt;
         DeviceName = deviceName;
         IpAddress = ipAddress;
+    }
+
+    public void Revoke()
+    {
+        RevokedAt = DateTime.UtcNow;
     }
 }

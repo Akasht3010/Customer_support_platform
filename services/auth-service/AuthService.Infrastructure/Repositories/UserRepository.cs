@@ -14,10 +14,20 @@ public class UserRepository : IUserRepository
         _context = context;
     }
 
-    public async Task<User?> GetByEmailAsync(string email, CancellationToken cancellationToken)
+    public async Task<bool> EmailExistsAsync(string email, CancellationToken cancellationToken)
     {
         return await _context.Users
-            .FirstOrDefaultAsync(x => x.Email == email, cancellationToken);
+            .AnyAsync(u => u.Email == email, cancellationToken);
+    }
+
+    public async Task<User?> GetByEmailAsync(
+        string email,
+        CancellationToken cancellationToken)
+    {
+        return await _context.Users
+            .FirstOrDefaultAsync(
+                u => u.Email == email,
+                cancellationToken);
     }
 
     public async Task AddAsync(User user, CancellationToken cancellationToken)

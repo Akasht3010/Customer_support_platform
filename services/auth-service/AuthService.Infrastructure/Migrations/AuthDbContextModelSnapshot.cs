@@ -55,6 +55,9 @@ namespace AuthService.Infrastructure.Migrations
 
                     b.HasIndex("UserId");
 
+                    b.HasIndex("Token")
+                        .IsUnique();
+
                     b.ToTable("RefreshTokens", (string)null);
                 });
 
